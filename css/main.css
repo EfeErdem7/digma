@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'Roboto Cn';
+    src: url('../font/Roboto-Condensed.woff2') .collapse_yorumat('woff2'), url('../font/Roboto-Condensed.woff') .collapse_yorumat('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fef9f2;
+    font-family: 'Roboto Cn';
+}
+
+.cont {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.baslik {
+    font-size: 16px;
+}
+
+.icerik {
+    width: 80%;
+    font-size: 12px;
+}
+
+.img-container {
+    margin: 1rem 0 2rem 0;
+}
+
+.menu-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-buttons a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-buttons .button {
+    width: 80%;
+    margin: 10px 0;
+    padding: 1rem;
+    font-size: 20px;
+    background: none;
+    color: #242424;
+    border: 1px solid #cf4f29;
+    border-radius: 3px;
+    transition: .1s all ease-in-out;
+}
+
+.menu-buttons .button:nth-child(2) {
+    border-color: #f6a814;
+}
+
+.menu-buttons .button:nth-child(3) {
+    border-color: #4db9be;
+}
+
+.menu-buttons .button:nth-child(4) {
+    border-color: #f2a51e;
+}
+
+.hdg-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hdg-container img {
+    width: 60%;
+}
+
+.menu-footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.button:focus {
+    outline: none;
+    background: #f6a814;
+    border-color: #f6a814 !important;
+    color: white;
+}
+
+h1,
+h4 {
+    text-align: center;
+    padding: 0px 15px;
+}
+
+h4 {
+    cursor: pointer;
+    color: #f6a814;
+}
+
+.white {
+    color: white;
+}
+
+h4 span {
+    font-size: 14px;
+}
+
+.content-cont {
+    padding: 0px 15px;
+}
+
+.content-cont span {
+    font-weight: bold;
+}
+
+.et .baslik {
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.slider-container .owl_btn {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    line-height: 40px;
+    display: flex;
+    height: 40px;
+    top: 50%;
+    cursor: pointer;
+    z-index: 10000;
+    width: 37px;
+    padding: 5px;
+}
+
+.o_next {
+    right: 0;
+}
+
+footer {
+    background-color: #cf4f29;
+    color: #ffd8be;
+    font-size: 12px;
+    padding: 10px;
+}
+
+footer a {
+    color: #ffd8be;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffd8be;
+    text-decoration: none;
+}
+
+.acordion {
+    display: none;
+}
+
+.default-closed {
+    display: none;
+}
+
+.active #down {
+    display: none;
+}
+
+#up {
+    display: none;
+}
+
+.active #up {
+    display: inline;
+}
+
+.index_btn {
+    padding: 50px 0px;
+    color: #fff;
+    margin: 20px 15px;
+}
+
+#menu {
+    background-color: #f3a632;
+}
+
+#yorum {
+    background-color: #4eb9bf;
+    cursor: pointer;
+}
+
+.collapse_yorum {
+    background-color: #4eb9bf;
+    margin: 0px 15px;
+    padding: 15px 0px;
+    display: none;
+}
+
+.collapse_yorum p {
+    margin: 0;
+    color: #fff;
+}
+
+.collapse_yorum label {
+    margin-top: 10px;
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.collapse_yorum label input {
+    width: 100%;
+    border-radius: 0;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    background: transparent;
+    color: #fff;
+}
+
+.collapse_yorum label textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #ccc;
+    color: #fff;
+}
+
+.collapse_yorum label input:active,
+.collapse_yorum label input:focus,
+.collapse_yorum label textarea:active,
+.collapse_yorum label textarea:focus {
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.collapse_yorum button {
+    background: #fff;
+    border: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #4eb9bf;
+}
+
+.collapse_yorum button:active,
+.collapse_yorum button:focus {
+    border: 0;
+    outline: 0;
+}
+
+.index_btn h4 {
+    font-size: 22px;
+}
